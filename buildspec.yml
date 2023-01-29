@@ -18,16 +18,17 @@ artifacts:
   # include all files required to run application
   # notably excluded is node_modules, as this will cause overwrite error on deploy
   files:
-    - assets/**/*
-    - components/**/*
-    - containers/**/*
-    - pages/**/*
-    - public/**/*
+    # - assets/**/*
+    # - components/**/*
+    # - containers/**/*
+    # - pages/**/*
+    # - public/**/*
+    # - settings/**/*
+    # - styles/**/*
+    # - jsconfig.json
+    # - tailwind.config.js
+    # - postcss.config.js
     - scripts/**/*
-    - settings/**/*
-    - styles/**/*
-    - jsconfig.json
+    - ./.next/**/*
     - package.json
     - appspec.yml
-    - postcss.config.js
-    - tailwind.config.js
