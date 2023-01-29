@@ -29,6 +29,6 @@ artifacts:
     # - tailwind.config.js
     # - postcss.config.js
     - scripts/**/*
-    - ./.next/**/*
+    - .next/**/*
     - package.json
     - appspec.yml
